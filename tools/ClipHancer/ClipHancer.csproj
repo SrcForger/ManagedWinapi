@@ -7,10 +7,34 @@
     <LangVersion>latest</LangVersion>
     <UseWindowsForms>true</UseWindowsForms>
     <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+    <RootNamespace>ClipHancer</RootNamespace>
+    <AssemblyName>ClipHancer</AssemblyName>
+    <ApplicationIcon>tray.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ManagedWinapi\ManagedWinapi.csproj" />
+  </ItemGroup>
+
+<!-- 
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  
+-->
+
+  <ItemGroup>
+    <Content Include="icons\unknown.ico" />
+    <Content Include="icons\file.ico" />
+    <Content Include="icons\rtf.ico" />
+    <Content Include="icons\html.ico" />
+    <Content Include="icons\text.ico" />
+    <Content Include="tray.ico" />
   </ItemGroup>
 
 </Project>

@@ -6,10 +6,32 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>latest</LangVersion>
     <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>QuickMacro</RootNamespace>
+    <AssemblyName>QuickMacro</AssemblyName>
+    <ApplicationIcon>stopped.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ManagedWinapi\ManagedWinapi.csproj" />
+  </ItemGroup>
+
+<!-- 
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  
+-->
+
+  <ItemGroup>
+    <Content Include="play.ico" />
+    <Content Include="recdelay.ico" />
+    <Content Include="record.ico" />
+    <Content Include="stopped.ico" />
   </ItemGroup>
 
 </Project>

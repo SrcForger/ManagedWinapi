@@ -6,10 +6,36 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>latest</LangVersion>
     <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>WinternalExplorer</RootNamespace>
+    <AssemblyName>WinternalExplorer</AssemblyName>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ManagedWinapi\ManagedWinapi.csproj" />
+  </ItemGroup>
+
+  <!-- 
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  -->
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="icons\accobj.ico" />
+    <Content Include="icons\category.ico" />
+    <Content Include="icons\hiddenaccobj.ico" />
+    <Content Include="icons\hiddenwindow.ico" />
+    <Content Include="icons\process.ico" />
+    <Content Include="icons\thread.ico" />
+    <Content Include="icons\window.ico" />
   </ItemGroup>
 
 </Project>

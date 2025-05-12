@@ -6,10 +6,29 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>latest</LangVersion>
     <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>DeskIconRestore</RootNamespace>
+    <AssemblyName>DeskIconRestore</AssemblyName>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ManagedWinapi\ManagedWinapi.csproj" />
+  </ItemGroup>
+
+<!-- 
+    <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+
+  -->
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
 
 </Project>
