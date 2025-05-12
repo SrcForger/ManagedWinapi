@@ -20,4 +20,15 @@
     <PackageReference Include="System.Management" Version="9.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="crosshair.ico" />
+    <EmbeddedResource Include="crosshair.cur" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ManagedWinapiNativeHelper.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
