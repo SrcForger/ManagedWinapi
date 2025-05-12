@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net8.0-windows;net48;net46;net40;net35;net20</TargetFrameworks>
-    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>latest</LangVersion>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>ManagedWinapi</RootNamespace>
