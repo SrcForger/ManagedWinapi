@@ -2,6 +2,9 @@
 
 set PATH=c:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;%PATH%
 
-msbuild src\ManagedWinapi.sln
-msbuild tools\Tools.sln
+dotnet build src\ManagedWinapi.sln
+dotnet build tools\Tools.sln
+
+msbuild src\ManagedWinapi.sln /nologo /clp:ErrorsOnly
+msbuild tools\Tools.sln /nologo /clp:ErrorsOnly
 
