@@ -1,10 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net8.0-windows</TargetFrameworks>
+    <TargetFrameworks>net8.0-windows;net48;net46;net40;net35;net20</TargetFrameworks>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <LangVersion>latest</LangVersion>
     <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ManagedWinapi</RootNamespace>
+    <AssemblyName>ManagedWinapi</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net20' ">
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
 
 </Project>
