@@ -13,7 +13,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
 
-  <ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net8.0-windows' ">
     <PackageReference Include="System.Management" Version="9.0.4" />
   </ItemGroup>
 
